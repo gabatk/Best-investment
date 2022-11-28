@@ -1,3 +1,6 @@
+@use './colors';
+@use './animations';
+
 *,
 *::after,
 *::before {
@@ -6,7 +9,19 @@
 	margin: 0;
 }
 
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
 body {
 	//     font-family: 'Cinzel', serif;
-	// font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    color: colors.$white;
+    background-color: colors.$dark;
 }
+
+// @use './small';
+// @use './medium';
+// @use './large';
