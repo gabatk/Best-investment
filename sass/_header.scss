@@ -22,7 +22,6 @@ body {
 }
 
 h1.company-name {
-	margin-bottom: 5em;
 	font-size: 3rem;
 	font-family: 'Cinzel', serif;
 	color: colors.$gold;
@@ -151,21 +150,6 @@ h1.company-name {
 
 		&:hover {
 			color: colors.$gold;
-		}
-
-		&::before {
-			position: absolute;
-			top: 0;
-			left: 0;
-			content: '';
-			width: 100%;
-			height: 100%;
-			border: 1px solid colors.$gold;
-			opacity: 0;
-
-			&:hover::before {
-				animation: pulse 1s;
-			}
 		}
 	}
 }
