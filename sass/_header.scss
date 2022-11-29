@@ -33,6 +33,29 @@ h1.company-name {
 	width: 100%;
 }
 
+.section-title {
+	position: relative;
+	margin: 0 auto 2em;
+	font-size: 3.2rem;
+	color: colors.$gold;
+	font-weight: 200;
+	width: fit-content;
+
+	&::before {
+		content: '';
+		position: absolute;
+		bottom: -0.1em;
+		left: 0;
+		width: 40px;
+		height: 2px;
+		background-color: colors.$gold;
+	}
+
+	span {
+		font-weight: 900;
+	}
+}
+
 // HEADER
 .header {
 	display: grid;
