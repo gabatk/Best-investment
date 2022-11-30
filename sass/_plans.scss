@@ -1,0 +1,38 @@
+@use './colors';
+
+// PLANS
+.plans {
+	padding: 6em 2em;
+	background-color: colors.$darker;
+
+	&__box {
+		margin: 1em 0;
+		padding: 2em 1em;
+		text-align: center;
+		border: 1px solid transparent;
+		border-radius: 8px;
+		background-color: colors.$dark;
+		cursor: pointer;
+		transition: background-color 0.3s, border 3s;
+
+		&:hover {
+			background-color: colors.$darker;
+			border: 1px solid colors.$gold;
+		}
+	}
+
+	&__item {
+		margin: 1em 0;
+	}
+
+	&__item-icon {
+		width: 50px;
+	}
+
+	&__item-name {
+		margin-top: 0;
+		margin-bottom: 1.5em;
+		font-size: 1.8rem;
+		color: colors.$gold;
+	}
+}
