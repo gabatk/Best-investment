@@ -460,6 +460,22 @@ h1.company-name {
     margin-top: 0;
     margin-bottom: 0;
   }
+  .newsletter__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .newsletter__text {
+    margin-bottom: 0;
+  }
+  .newsletter__form {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1em;
+  }
+  .newsletter__form-input {
+    margin-bottom: 0;
+  }
 }
 @media (min-width: 992px) {
   .section-title {
