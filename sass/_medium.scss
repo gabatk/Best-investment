@@ -61,4 +61,13 @@
 			}
 		}
 	}
+
+	.gallery {
+		grid-template-columns: repeat(4, 1fr);
+		&__img {
+			&:nth-child(odd) {
+				display: block;
+			}
+		}
+	}
 }
