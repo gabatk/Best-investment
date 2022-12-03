@@ -33,6 +33,7 @@
 					border: 1px solid colors.$gold;
 				}
 			}
+
 			&:nth-child(1) {
 				grid-column: 1/-1;
 				grid-row: 1/2;
@@ -53,6 +54,7 @@
 			grid-column: 1/3;
 			grid-row: 4/5;
 			padding: 1em;
+			min-width: fit-content;
 			border: 1px solid colors.$gold;
 			background: none;
 			font-weight: bold;
