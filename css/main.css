@@ -400,6 +400,24 @@ h1.company-name {
   text-align: center;
 }
 
+.contact {
+  padding: 6em 2em;
+}
+.contact__form {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.contact__form-box-label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+}
+.contact__form-box-msg {
+  max-width: 100%;
+  width: 100%;
+  min-width: 100%;
+}
+
 @media (min-width: 576px) {
   .info {
     grid-template-areas: "title box" "title box" "title box";

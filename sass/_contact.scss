@@ -1,0 +1,25 @@
+@use './colors';
+
+// CONTACT
+.contact {
+	padding: 6em 2em;
+
+	&__form {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+
+		&-box {
+			&-label {
+				display: block;
+				margin-bottom: 0.5em;
+				font-size: 2rem;
+			}
+
+			&-msg {
+				max-width: 100%;
+				width: 100%;
+				min-width: 100%;
+			}
+		}
+	}
+}
